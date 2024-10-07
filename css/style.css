@@ -17,7 +17,7 @@ h1, h2{
     color: red;
 }
 
-@media (min-width:0px) and (max-width: 500px) {
+@media (min-width:0px) and (max-width: 600px) {
     .GridAlbum {
         display: grid;
         grid-template:  1fr / 1fr 1fr;
@@ -30,7 +30,7 @@ h1, h2{
     }
     
 }
-@media (min-width: 500px) and (max-width: 1000px) {
+@media (min-width: 600px) {
     .GridAlbum {
         display: grid;
         grid-template:  1fr / 1fr 1fr 1fr;
