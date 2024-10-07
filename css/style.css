@@ -1,0 +1,72 @@
+h1{
+    position: fixed;
+    top:0;
+}
+.Margin{
+    margin-top: 50px;
+    padding: 20px;
+}
+h1, h2{
+    color:blue;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.test{
+    color: red;
+}
+
+@media (min-width:0px) and (max-width: 500px) {
+    .GridAlbum {
+        display: grid;
+        grid-template:  1fr / 1fr 1fr;
+        gap:10px;
+    }
+    
+    .GridAlbum img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+    .GridAlbum {
+        display: grid;
+        grid-template:  1fr / 1fr 1fr 1fr;
+        gap: 50px;
+    }
+    
+    .GridAlbum img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+.FlexAlbum { /*parent container */
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+}
+
+.FlexAlbum img{
+    width: 33%;
+    height: 150px;
+    
+}
+
+.FlexAlbum > .sonc{
+    order: -1;
+}
+
+ul > p{
+    color:aqua;
+}
+
+.WorkExp > p{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
